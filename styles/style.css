@@ -72,6 +72,51 @@
   margin-top: 25px;
 }
 
+/* main styles */
+
+main{
+  max-width: 1440px;
+margin: 0 auto;
+
+}
+
+
+.main1-container{
+  
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.main1-images{
+ display:grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 10px;
+ 
+}
+
+.main1-content{
+  margin-right: 5px;
+  margin-left: 40px;
+  
+}
+
+.main1-content h1{
+  font-size: 2.8em;
+}
+
+.quick{
+  font-weight: 400;
+}
+
+.of{
+  font-weight: 700;}
+
+.features{
+color: rgba(255, 144, 14, 1);
+}
+
+
 /* Responsive for small device */
 
 @media screen and (max-width:576px) {
@@ -80,7 +125,7 @@ header{
     padding: 20px 5px;
   }
 
-  nav{
+  nav, .main1-container{
 
 flex-direction: column;
 
@@ -92,6 +137,22 @@ margin-bottom: 40px;
 padding: auto;
 
   }
+
+  
+  .main1-images{
+    grid-template-columns: 1fr;
+
+  }
+
+  .main1-content{
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
 }
 
 @media screen and (min-width:577px) and (max-width:980px) {
@@ -103,10 +164,28 @@ padding: auto;
 
   
 
-  nav{
+  nav, .main1-container{
 
     flex-direction: column;
     
       }
-  
+
+      .main1-content{
+        margin-right: 5px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+      }
+     
+      .main1-content h1{
+        text-align: center;
+        
+      }
+
+      .main1-conten p{
+        margin-bottom: 5px;
+      }
+
 }
