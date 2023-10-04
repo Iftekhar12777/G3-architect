@@ -5,7 +5,8 @@
   *{font-family: 'Work Sans', sans-serif;}
 
   .btn-primary{
-
+    background: #FF900E; border-radius: 8px;font-size: 1.2em;border: none;padding: 20px;
+    font-weight: 600; color: white;margin-top: 5px;
   }
   
   
@@ -63,6 +64,49 @@
   }
 
   .banner-description{
-    margin-top: -35px;
+    margin-top: -30px;
   }
 
+.banner img{
+  width: 100%;
+  margin-top: 25px;
+}
+
+/* Responsive for small device */
+
+@media screen and (max-width:576px) {
+
+header{
+    padding: 20px 5px;
+  }
+
+  nav{
+
+flex-direction: column;
+
+  }
+
+  .banner-title{
+font-size: 2.5em;
+margin-bottom: 40px;
+padding: auto;
+
+  }
+}
+
+@media screen and (min-width:577px) and (max-width:980px) {
+
+  header{
+    padding: 20px ;
+    
+  }
+
+  
+
+  nav{
+
+    flex-direction: column;
+    
+      }
+  
+}
