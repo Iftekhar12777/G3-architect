@@ -119,7 +119,7 @@ color: rgba(255, 144, 14, 1);
 
 .some-facts{
   max-width: 750px;
-  margin-top: 30px;
+  margin-top: 130px;
 }
 .some-facts h1{
   margin-bottom: 10px;
@@ -145,6 +145,62 @@ color: rgba(255, 144, 14, 1);
   margin-top: -20px;
   font-weight: 600;
 }
+
+
+.features2{
+  width: 1400px;
+  margin-top: 130px;
+  display: flex;
+  gap: 100px;
+}
+
+.features2-content h1 {
+  font-size: 4em;
+  margin-bottom: 5px;
+  margin-top: 0;
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+
+.features2-content p{
+  margin-bottom: 70px;
+}
+
+.card{
+  background: white;
+  box-shadow: 0px 2px 5px  rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px; padding: 20px;
+}
+
+.features2-image img{
+  height: 98%;
+  
+}
+
+.experience{
+  background-color: #FF900E;
+  border-radius: 8px;
+  text-align: center;
+  width: 280px;
+  padding: 2px 5px;
+  position: relative;
+  bottom: 100px;
+  right: 50px;
+}
+
+.experience h1 {
+font-size: 2.8em;
+margin-bottom: 0;
+/* margin-top: 40px; */
+}
+
+.experience h6{
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+
 
 
 /* Responsive for small device */
@@ -185,7 +241,7 @@ padding: auto;
 
   .some-facts{
     max-width: 350px;
-    /* margin-top: 30px; */
+    margin-top: 15px;
     padding: 0 25px;
   }
 
@@ -199,6 +255,37 @@ padding: auto;
   .achievement div{
     padding: 5px;
   }
+
+  .features2{
+    width: 350px;
+    flex-direction: column;
+    padding: 0;
+    gap: 50px;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .features2-image img{
+    width: 100%;
+    height: 98%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .experience{
+    background-color: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    padding: 2px 5px;
+    position: relative;
+    bottom: 100px;
+    right: 0;
+    left: 70px;
+    margin-bottom: 0;
+  }
+
 
 }
 
