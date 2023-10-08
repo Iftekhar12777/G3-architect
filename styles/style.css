@@ -201,6 +201,36 @@ margin-bottom: 0;
 }
 
 
+.our-sponsors{
+  margin-top: 90px;
+  text-align: center;
+}
+
+.our-sponsors h1{
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.logos{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 40px;
+}
+
+.copyright{
+  margin: 70px auto;
+  width: 1440px;
+  height: 100px;
+  background-color: #FFF4E7;
+  display: flex;
+  
+}
+
+.copyright p{
+  text-align: center;
+  margin: auto auto;
+}
 
 
 /* Responsive for small device */
@@ -286,6 +316,22 @@ padding: auto;
     margin-bottom: 0;
   }
 
+  .copyright{
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .logos{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .logos img{
+    width:200px;
+    /* padding-left: 65px; */
+    margin: auto;
+    gap: 10px;
+  }
 
 }
 
